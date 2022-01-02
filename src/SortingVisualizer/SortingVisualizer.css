@@ -1,14 +1,40 @@
 
 .container.array{
     position: absolute;
-    background-color: aquamarine;
+    background-color: #eee0e0;
     width: 100%;
-    top: 10%;
+    height: 100%;
 }
 
 .array-bar{
-    width: 10px;
-    margin: 20px 1px;
+    position: relative;
+    
+    width: 2px;
+    margin-top: 120px;
+    margin-left: 1px;;
     display: inline-block;
-    background-color: aliceblue;
+
+    
 }
+
+.buttons{
+    position: relative;
+    margin: 30px;
+}
+
+button{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #b9b0b0;
+    border-radius: 15px;
+    color: #3c5c5c;
+}
+
+.gen{
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+
+
